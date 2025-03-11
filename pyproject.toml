@@ -1,0 +1,15 @@
+[project]
+name = "kbc-quiz-game"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "django>=5.1.7",
+]
+
+[dependency-groups]
+dev = [
+    "python-dotenv[cli]>=1.0.1",
+    "pythonanywhere>=0.15.5",
+]
